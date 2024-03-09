@@ -1,0 +1,146 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.navbar{
+    height: 92px;
+    width: 100%;
+    position: fixed;
+    border-bottom:2px solid #fff;
+    z-index: 1000;
+}
+.navbar.sticky {
+    background-color: #cecece;
+    border-bottom: 2px solid black;
+    
+}
+.navbar.sticky a{
+    color: black !important;
+}
+.nav-item{
+    font-family: courier new;
+    size: 27;
+    margin-left: 80px;
+}
+.section{
+    width: 100%;
+    height: fit-content;
+    background-image: url(research\ paper\ .png);
+    background-size: cover;
+}
+.textbox{
+    font-family:courier new; 
+    size:45;
+    margin-top: -40px;
+    color:white;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 200px;
+    height: 200px;
+   
+    font-size: large;
+}
+.about{
+    font-family:courier new; 
+    font-size:50px;
+    color:#c3c1c1;
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content;
+    height: fit-content;
+    padding:135px;
+}
+.navtextbox{
+    background-color: #dfdfdf;
+    color:black;
+    padding:4px;
+    width: 170px;
+    height: max-content;
+    font-family: 'Courier New';
+      /* border-radius: 4px; */
+      transform-style: preserve-3d;
+}
+.box{
+    width:fit-content;
+    height: fit-content;
+    margin: 30PX;
+    border:2px solid white;
+    min-height: 300px;
+    font-size:25px;
+    font-family: cambria;
+    box-shadow: 1px 1px 5px 5px grey;
+}
+.setting{
+    width:40px;
+    height:40px;
+    /* float:right; */
+    padding: 0px !important;
+    background-color: orange; 
+    border-radius: 10px;
+}
+.themechanger{
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    /* display: none; */
+    animation: open 1s ;
+}
+@keyframes open {
+    0%{
+        margin-left: 0px;
+        opacity: 0;
+    }
+    50%{
+        margin-left: 10px;
+        opacity: 0.5;
+    }
+    /* 50%
+    {
+        margin-left: 0px;
+        opacity: 0.4;
+    }
+    75%
+    {
+        margin-left: 10px;
+        opacity: 0.6;
+    } */
+    100%
+    {
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+.btn{
+ border-radius:100%;
+ /* width: fit-content;
+ height: fit-content; */
+ border-color: black;
+}
+.btn.trans{
+    /* background-color: aqua; */
+    background: transparent;
+}
+.btn.green{
+    background-color: mediumseagreen;
+}
+.btn.violet{
+    background-color: violet;
+}
+.btn.salmon{
+    background-color: #FA8072;
+}
+.btn.khaki{
+    background-color: #BDB76B;
+}
+.btn.teal{
+    background-color: #008080;
+}
+.btn.sletgray{
+    background-color: #708090;
+}
+.btn.marine{
+    background-color: #117864;
+}
